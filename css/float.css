@@ -5,16 +5,12 @@
 
 aside {
     float: left;
-    box-sizing: border-box;
-    width: calc(25% - 0.5rem + 2px);
-    height: 22rem;
+    width: calc(25% - 0.5rem + 4px);
 }
 
 article {
     float: right;
-    box-sizing: border-box;
-    width: calc(75% - 0.5rem - 2px);
-    height: 22rem;
+    width: calc(75% - 0.5rem - 4px);
     position: relative;
 }
 
@@ -30,8 +26,6 @@ footer {
 
 .image {
     float: left;
-    background-color: lightgray;
-    padding: 3rem 1rem;
     width: calc(100%/3 - 3rem);
     margin-right: 1rem;
 }

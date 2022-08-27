@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,34 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/flex.css">
 </head>
+
 <body>
-    <div class="container">
-        <header>Header</header>
-        <div class="row">
-            <aside class="col-3">Aside</aside>
-            <article class="col-7">Article
-                <div class="image-container">
-                    <div class="image">Image</div>
-                    <div class="image">Image</div>
-                    <div class="image">Image</div>
-                </div>
-            </article>
+    <section id="header">
+        <h1>Demo CSS Layout</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="float-layout.html">Float Layout</a>
+            <a class="active" href="flex-layout.html">Flex Layout</a>
+            <a href="grid-layout.html">Grid Layout</a>
+            <a href="bootstrap-layout.html">Bootstrap Layout</a>
+          </nav>
+    </section>
+    <section>
+        <div class="container">
+            <header>Header</header>
+            <div class="row">
+                <aside class="col-3">Aside</aside>
+                <article class="col-7">Article
+                    <div class="image-container">
+                        <div class="image">Image</div>
+                        <div class="image">Image</div>
+                        <div class="image">Image</div>
+                    </div>
+                </article>
+            </div>
+            <footer>Footer</footer>
         </div>
-        <footer>Footer</footer>
-    </div>
+    </section>
 </body>
+
 </html>

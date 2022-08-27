@@ -5,13 +5,11 @@
 }
 
 aside {
-    flex-basis: calc(25% - 1rem * 0.25 - 2rem - 2px);
-    height: 20rem;
+    flex-basis: calc(25% - 4px);
 }
 
 article {
     flex-grow: 1;
-    /* flex-basis: calc(75% - 1rem * 0.75 - 2rem - 2px); */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -25,7 +23,5 @@ article {
 }
 
 .image {
-    background-color: lightgray;
-    padding: 3rem 1rem;
     flex-basis: calc(100% / 3);
 }

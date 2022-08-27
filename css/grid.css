@@ -5,12 +5,7 @@
     padding: 1rem 0;
 }
 
-aside {
-    height: 20rem;
-}
-
 article {
-    height: 20rem;
     display: grid;
 }
 
@@ -19,9 +14,4 @@ article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-}
-
-.image {
-    background-color: lightgray;
-    padding: 3rem 1rem;
 }

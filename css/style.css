@@ -1,13 +1,49 @@
 body {
     margin: 0;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
 }
 
+/* Header */
+#header {
+    background-color: lightgrey;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem !important;
+    margin: 1rem !important;
+    font-weight: 500 !important;
+}
+ 
+#header nav {
+    box-sizing: border-box;
+}
+
+#header nav a {
+    display: inline-block;
+    color: blue !important;
+    margin: 1rem;
+}
+
+#header nav a.active {
+    text-decoration: none;
+}
+
+#header + section {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Layout */
 .container {
     background-color: lightgray;
     padding: 1rem;
-    width: 80%;
+    width: 80% !important;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 header, aside, article, footer {
@@ -15,4 +51,14 @@ header, aside, article, footer {
     border: 1px solid black;
     padding: 1rem;
     text-align: center;
+}
+
+aside, article {
+    box-sizing: border-box;
+    height: 22rem;
+}
+
+.image {
+    background-color: lightgray;
+    padding: 3rem 1rem;
 }
