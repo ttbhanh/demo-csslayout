@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-weight: bold;
+}
+
+.container {
+    background-color: lightgray;
+}
+
+header, aside, article, footer {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+aside, article {
+    height: 22rem;
+}
+
+.image {
+    background-color: lightgray;
+    padding: 3rem 1rem;
+}

@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+aside {
+    flex-basis: calc(25% - 1rem * 0.25 - 2rem - 2px);
+    height: 20rem;
+}
+
+article {
+    flex-grow: 1;
+    /* flex-basis: calc(75% - 1rem * 0.75 - 2rem - 2px); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    display: flex;
+    gap: 1rem;
+    align-self: flex-end;
+    flex-basis: 100%;
+}
+
+.image {
+    background-color: lightgray;
+    padding: 3rem 1rem;
+    flex-basis: calc(100% / 3);
+}

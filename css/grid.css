@@ -1,0 +1,27 @@
+.row {
+    display: grid;
+    grid-template-columns: 2.5fr 7.5fr;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+aside {
+    height: 20rem;
+}
+
+article {
+    height: 20rem;
+    display: grid;
+}
+
+.image-container {
+    align-content: end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.image {
+    background-color: lightgray;
+    padding: 3rem 1rem;
+}

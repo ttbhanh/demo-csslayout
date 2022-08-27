@@ -1,0 +1,37 @@
+.row {
+    padding: 1rem 0;
+    overflow: auto;
+}
+
+aside {
+    float: left;
+    box-sizing: border-box;
+    width: calc(25% - 0.5rem + 2px);
+    height: 22rem;
+}
+
+article {
+    float: right;
+    box-sizing: border-box;
+    width: calc(75% - 0.5rem - 2px);
+    height: 22rem;
+    position: relative;
+}
+
+footer {
+    clear: both;
+}
+
+.image-container {
+    position: absolute;
+    bottom: 1rem;
+    width: calc(100% - 1rem);
+}
+
+.image {
+    float: left;
+    background-color: lightgray;
+    padding: 3rem 1rem;
+    width: calc(100%/3 - 3rem);
+    margin-right: 1rem;
+}
