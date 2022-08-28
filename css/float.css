@@ -5,12 +5,12 @@
 
 aside {
     float: left;
-    width: calc(25% - 0.5rem + 4px);
+    width: calc(25%);
 }
 
 article {
     float: right;
-    width: calc(75% - 0.5rem - 4px);
+    width: calc(75% - 1rem);
     position: relative;
 }
 

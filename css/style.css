@@ -49,7 +49,7 @@ h1 {
 header, aside, article, footer {
     background-color: white;
     border: 1px solid black;
-    padding: 1rem;
+    padding: 1rem !important;
     text-align: center;
 }
 

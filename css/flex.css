@@ -5,7 +5,7 @@
 }
 
 aside {
-    flex-basis: calc(25% - 4px);
+    flex-basis: 25%;
 }
 
 article {
